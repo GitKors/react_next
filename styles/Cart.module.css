@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.cartPage {
+    padding: 20px;
+  }
+  
+  .pageTitle {
+    margin-bottom: 20px;
+  }
+  
+  .cartItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cartItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .bookImage {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .bookInfo {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .author {
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  .price {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .totalPrice {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .emptyCart {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+
+  /* new */
+
+  .cart_container {
+    width: 1120px;
+    margin: 0 auto;
+  }
+
+  .cart_title {
+    font-size: 24px;
+    color:#1C2A39;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 29px;
+    
+  }
+
+  .cart_items {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cart_items p {
+    color:#5C6A79;
+    font-size: 10px;
+    font-family: Montserrat;
+    line-height: 12px;
+    font-weight: 700;
+  }
+
+  .books {
+    list-style: none;
+    display: flex;
+    margin-bottom: 75px;
+  }
+
+  .list_books {
+    width: 1120px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cart_info {
+    margin-left: 25px;
+    /* width: 176px; */
+    display: flex;
+    
+
+  }
+
+  .cont_cart_info {
+    margin-top: 2.5rem;
+  }
+
+  .title_book {
+    color:#1C2A39;
+    font-size: 16px;
+    font-family: Montserrat;
+    line-height: 19px;
+    font-weight: 700;
+    width: 176px;
+  }
+
+  .autor_book {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: -5px;
+    width: 176px;
+  }
+
+  .rating {
+    display: flex;
+    align-items: baseline;
+    margin-top: -17px;
+  }
+
+  .rating_info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    margin-left: 6px;
+    /* text-wrap: nowrap; */
+  }
+
+  .pic_book {
+    width: 102px;
+  }
+
+  .book_count_container{
+    display: flex;
+    flex-flow: row-reverse;
+    width: 176px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #EEEDF5;
+    height: max-content;
+    margin-left: 60px;
+  }
+
+
+
+  .main_cont {
+    display: flex;
+    width: 755px;
+    justify-content: space-between;
+    align-items:center;
+  }
+
+  .price {
+    margin-left: -95px;
+  }
+
+  .cart_quantity {
+    margin-left: 100px;
+  }
+
+  .check {
+    width: 176px;
+    height: 45px;
+    background-color:white;
+    border-color:#4C3DB2;
+    color:#4C3DB2;
+    font-size: 8px;
+    font-family: Montserrat;
+    line-height: 9px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 19px;
+
+  }
+
+  .total_price {
+    font-size: 24px;
+    font-family: Montserrat;
+    line-height: 29px;
+    font-weight: 700;
+    color:#1C2A39;
+  }
+
+  .book_count_container button {
+    height: max-content;
+    color:#000000;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+  }
+
+
+  .butt_plus,
+  .butt_min {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconcount {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 21.5px;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  

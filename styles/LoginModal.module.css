@@ -1,0 +1,182 @@
+.login-modal {
+  position: absolute;
+  top: 145%;
+  left: -107px;
+  width: 241px;
+  background-color: white;
+  border-radius: 8px;
+  z-index: 1;
+  height: 312px;
+  box-shadow: 1px 1px 0 #ccc, -1px 1px 0 #ccc, 1px -1px 0 #ccc;
+}
+
+.login-modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+}
+
+.login-modal-header {
+  text-align: center;
+}
+
+.login-modal-title {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+}
+
+.login-modal-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.login-modal-body {
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  margin: 0px auto;
+}
+
+.login-modal-label {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 14.63px;
+}
+
+.login-modal-input {
+  margin-top: 10px;
+  width: 176px;
+  height: 35px;
+}
+
+.login-modal-error {
+  color: red;
+  margin-top: 5px;
+}
+
+.login-modal-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-modal-submit:hover {
+  background-color: #3c79e0;
+}
+
+.loginModal {
+  /* position: absolute;
+  top: 110%;
+  left: -66px;
+  /* width: 300px; */
+  /* background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 1; */ 
+
+
+  position: absolute;
+  top: 145%;
+  left: -107px;
+  width: 241px;
+  background-color: white;
+  border-radius: 8px;
+  z-index: 1;
+  height: 312px;
+  box-shadow: 1px 1px 0 #ccc, -1px 1px 0 #ccc, 1px -1px 0 #ccc;
+}
+
+.loginModalHeader {
+  text-align: center;
+}
+
+.loginModalBody {
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  margin: 0px auto;
+}
+
+
+
+.link_main {
+  text-decoration: none;
+}
+
+.loginModalClose {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.loginModalTitle {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+
+}
+
+.loginModalInput::placeholder {
+  color:#4C3DB2;
+}
+
+.loginModalInput {
+  border-color: #4C3DB2;
+}
+
+.errorMessage {
+  font-size: 8px;
+  line-height: 9.75px;
+  color:red;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.loginModalLabel {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 14.63px;
+}
+
+.loginModal input {
+  margin-top: 10px;
+  width: 176px;
+  height: 35px;
+}
+
+.loginModal label {
+  margin-top: 5px;
+}
+
+.loginModalSubmit {
+  width: 176px;
+  height: 32px;
+  background-color:#9E98DC;
+  color:#FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  border:none;
+  cursor: pointer;
+  margin-top: 30px;
+
+}

@@ -1,0 +1,105 @@
+.profile {
+    color: #1C2A39;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 19px;
+}
+
+.container_user {
+    display: flex;
+}
+
+.about {
+    width: 353px;
+    height: 345px;
+    background-color: #FFE0E2;
+    box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.1);
+
+}
+
+.main_container {
+    width: 1120px;
+    margin: 87px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_name {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color:#000000;
+    margin-top: 45px;
+}
+
+.name {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    color:#000000;
+    margin-top: 8px;
+}
+
+.title_mail {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color:#000000;
+}
+
+.mail {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    color:#000000;
+    margin-top: 8px;
+}
+
+.butt_edit {
+    width: 176px;
+    height: 45px;
+    background-color:white;
+    border-color: #4C3DB2;
+    color:#4C3DB2;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    line-height: 9px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.data_user {
+    margin-left: 17px;
+}
+
+.title_text {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color:#000000;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.text {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color:#5C6A79;
+    margin-top: 29px;
+    text-align: center;
+}
+
+.container_text {
+    width: 296px;
+    margin: 17px auto;
+}
